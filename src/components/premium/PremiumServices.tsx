@@ -57,7 +57,7 @@ const PremiumServices = () => {
                         <Col md={4} className="mb-4" key={idx}>
                             <div className="feature-box f-style-2 h-100 icon-grad bg-dark-lighter shadow-lg rounded p-4 transition-hover border border-white-10 d-flex flex-column">
                                 <div className="feature-box-icon mb-4">
-                                    <i className={`${item.icon} fa-2x text-warning`} />
+                                    <i className={`${item.icon} fa-lg text-warning`} />
                                 </div>
                                 <h3 className="feature-box-title h4 fw-bold mb-3 text-white">{item.title}</h3>
                                 <p className="feature-box-desc text-white-50 mb-4 flex-grow-1">{item.description}</p>
