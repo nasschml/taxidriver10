@@ -1,0 +1,76 @@
+// Taxi Driver 10 - Premium Theme Variables
+
+// Colors
+$primary: #FFD700; // Premium Gold
+$secondary: #0A0A0A; // Deep Black
+$body-bg: #0A0A0A; // Dark Background
+$body-color: #F8F9FA; // Light Text
+
+// Theme Colors Map
+$theme-colors: (
+);
+$theme-colors: map-merge(("primary": $primary,
+      "secondary": $secondary,
+      "success": #198754,
+      "info": #0dcaf0,
+      "warning": #ffc107,
+      "danger": #dc3545,
+      "light": #f8f9fa,
+      "dark": #000000),
+    $theme-colors);
+
+$theme-colors-rgb: map-loop($theme-colors, to-rgb, "$value");
+
+// Gradients
+$grad-start: #FFD700;
+$grad-end: #B8860B; // Dark Goldenrod
+
+// Components
+$component-active-bg: $primary;
+$link-color: $primary;
+$link-hover-color: #fff;
+
+$btn-link-color: $link-color;
+$btn-link-hover-color: $link-hover-color;
+
+// Navbar
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+$navbar-dark-hover-color: rgba($primary, .75);
+$navbar-dark-active-color: $primary;
+
+// Dropdowns
+$dropdown-bg: #1a1a1a;
+$dropdown-link-color: #fff;
+$dropdown-link-hover-color: $primary;
+$dropdown-link-active-color: $primary;
+$dropdown-link-active-bg: transparent;
+
+// Forms
+$input-bg: rgba(255, 255, 255, 0.05);
+$input-color: #fff;
+$input-border-color: rgba(255, 215, 0, 0.2);
+$input-focus-bg: rgba(255, 255, 255, 0.1);
+$input-focus-border-color: $primary;
+$input-focus-color: #fff;
+
+$form-check-input-focus-border: $input-focus-border-color;
+$form-switch-focus-color: $input-focus-border-color;
+$form-select-focus-border-color: $input-focus-border-color;
+$form-check-input-checked-bg-color: $component-active-bg;
+
+// Accordion
+$accordion-bg: transparent;
+$accordion-button-bg: rgba(255, 255, 255, 0.05);
+$accordion-button-color: #fff;
+$accordion-button-active-bg: rgba(255, 215, 0, 0.1);
+$accordion-button-active-color: $primary;
+$accordion-icon-color: $primary;
+$accordion-icon-active-color: $primary;
+// Typography
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-bold: 600; // Reduced from 700 for elegance
+
+$headings-font-weight: 400; // Lighter headings
+$display-font-weight: 400; // Lighter display text

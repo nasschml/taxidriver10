@@ -1,0 +1,82 @@
+/* User CSS from _user.scss */
+
+// Premium Utility Classes
+
+// Glassmorphism
+.glass-panel {
+    background: rgba(255, 255, 255, 0.02); // Reduced opacity
+    backdrop-filter: blur(8px); // Reduced blur
+    -webkit-backdrop-filter: blur(8px);
+    border: 1px solid rgba(255, 255, 255, 0.03); // More subtle border
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.2); // Softer shadow
+}
+
+.glass-header {
+    background: rgba(10, 10, 10, 0.8);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border-bottom: 1px solid rgba(255, 215, 0, 0.1);
+}
+
+// Text Gradients
+.text-gradient-gold {
+    background: linear-gradient(135deg, #FFD700 0%, #FDB931 50%, #B8860B 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+// Glow Effects
+.glow-gold {
+    box-shadow: 0 0 15px rgba(255, 215, 0, 0.3);
+    transition: box-shadow 0.3s ease;
+
+    &:hover {
+        box-shadow: 0 0 25px rgba(255, 215, 0, 0.5);
+    }
+}
+
+// Hover Effects
+.hover-lift {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+        transform: translateY(-5px);
+    }
+}
+
+// Backgrounds
+.bg-dark-premium {
+    background-color: #0A0A0A;
+}
+
+.bg-pattern {
+    background-image: radial-gradient(rgba(255, 215, 0, 0.05) 1px, transparent 1px);
+    background-size: 30px 30px;
+}
+
+// Typography Overrides
+body {
+    font-family: var(--font-jakarta), sans-serif;
+    color: #F8F9FA;
+    background-color: #0A0A0A;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: var(--font-outfit), sans-serif;
+    color: #FFFFFF;
+}
+
+.display-1,
+.display-2,
+.display-3,
+.display-4 {
+    font-family: var(--font-outfit), sans-serif;
+    font-weight: 700;
+}
