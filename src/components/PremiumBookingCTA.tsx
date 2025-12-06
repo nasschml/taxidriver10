@@ -29,16 +29,22 @@ const PremiumBookingCTA = ({ keyword = "Troyes" }: PremiumBookingCTAProps) => {
                             </p>
 
                             <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                                <a href="tel:+33000000000" className="text-decoration-none">
-                                    <Button variant="warning" className="rounded-pill px-5 py-3 fw-bold shadow-lg glow-gold text-dark w-100 w-sm-auto">
-                                        <i className="fas fa-phone-alt me-2"></i> APPELER MAINTENANT
-                                    </Button>
-                                </a>
-                                <a href="https://wa.me/33000000000" className="text-decoration-none">
-                                    <Button variant="outline-light" className="rounded-pill px-5 py-3 fw-bold hover-lift w-100 w-sm-auto">
-                                        <i className="fab fa-whatsapp me-2"></i> WHATSAPP
-                                    </Button>
-                                </a>
+                                <Button
+                                    as="a"
+                                    href="tel:+33000000000"
+                                    variant="warning"
+                                    className="text-decoration-none rounded-pill px-5 py-3 fw-bold shadow-lg glow-gold text-dark w-100 w-sm-auto"
+                                >
+                                    <i className="fas fa-phone-alt me-2"></i> APPELER MAINTENANT
+                                </Button>
+                                <Button
+                                    as="a"
+                                    href="https://wa.me/33000000000"
+                                    variant="outline-light"
+                                    className="text-decoration-none rounded-pill px-5 py-3 fw-bold hover-lift w-100 w-sm-auto"
+                                >
+                                    <i className="fab fa-whatsapp me-2"></i> WHATSAPP
+                                </Button>
                             </div>
 
                             <div className="mt-5 pt-4 border-top border-white border-opacity-10">

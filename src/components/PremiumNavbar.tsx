@@ -67,16 +67,17 @@ const PremiumNavbar = () => {
 
                         {/* CTA Button & Mobile Toggle */}
                         <div className="d-flex align-items-center gap-3">
-                            <a href="tel:+33000000000" className="text-decoration-none d-none d-sm-block" aria-label="Appeler le 06 00 00 00 00">
-                                <Button
-                                    variant="warning"
-                                    className="rounded-pill px-4 py-2 fw-bold glow-gold text-dark border-0"
-                                    style={{ minHeight: '44px' }}
-                                >
-                                    <i className="fas fa-phone-alt me-2"></i>
-                                    06 00 00 00 00
-                                </Button>
-                            </a>
+                            <Button
+                                as="a"
+                                href="tel:+33000000000"
+                                variant="warning"
+                                className="text-decoration-none d-none d-sm-block rounded-pill px-4 py-2 fw-bold glow-gold text-dark border-0"
+                                aria-label="Appeler le 06 00 00 00 00"
+                                style={{ minHeight: '44px' }}
+                            >
+                                <i className="fas fa-phone-alt me-2"></i>
+                                06 00 00 00 00
+                            </Button>
 
                             {/* Mobile Toggle */}
                             <button
@@ -114,16 +115,16 @@ const PremiumNavbar = () => {
                             Contact
                         </Link>
                     </Nav>
-                    <a href="tel:+33000000000" className="text-decoration-none w-100 px-4">
-                        <Button
-                            variant="warning"
-                            size="lg"
-                            className="w-100 rounded-pill py-3 fw-bold glow-gold text-dark border-0"
-                        >
-                            <i className="fas fa-phone-alt me-2"></i>
-                            APPELER
-                        </Button>
-                    </a>
+                    <Button
+                        as="a"
+                        href="tel:+33000000000"
+                        variant="warning"
+                        size="lg"
+                        className="text-decoration-none w-100 px-4 rounded-pill py-3 fw-bold glow-gold text-dark border-0"
+                    >
+                        <i className="fas fa-phone-alt me-2"></i>
+                        APPELER
+                    </Button>
                 </Container>
             </motion.div>
         </>
