@@ -96,7 +96,7 @@ const PremiumHero = ({
                     <Row className="text-center text-lg-start">
                         <Col xs={6} md={3} className="mb-4 mb-md-0">
                             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
-                                <i className="fas fa-history text-warning display-6 me-3"></i>
+                                <i className="fas fa-history text-warning fa-3x me-3"></i>
                                 <div>
                                     <h3 className="fw-bold text-white mb-0 h2">
                                         <CountUp end={15} duration={2.5} />+
@@ -107,7 +107,7 @@ const PremiumHero = ({
                         </Col>
                         <Col xs={6} md={3} className="mb-4 mb-md-0">
                             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
-                                <i className="fas fa-users text-warning display-6 me-3"></i>
+                                <i className="fas fa-users text-warning fa-3x me-3"></i>
                                 <div>
                                     <h3 className="fw-bold text-white mb-0 h2">
                                         <CountUp end={5000} duration={2.5} separator=" " />+
@@ -118,7 +118,7 @@ const PremiumHero = ({
                         </Col>
                         <Col xs={6} md={3} className="mb-4 mb-md-0">
                             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
-                                <i className="fas fa-clock text-warning display-6 me-3"></i>
+                                <i className="fas fa-clock text-warning fa-3x me-3"></i>
                                 <div>
                                     <h3 className="fw-bold text-white mb-0 h2">
                                         <CountUp end={100} duration={2.5} />%
@@ -129,7 +129,7 @@ const PremiumHero = ({
                         </Col>
                         <Col xs={6} md={3}>
                             <div className="d-flex align-items-center justify-content-center justify-content-lg-start">
-                                <i className="fas fa-headset text-warning display-6 me-3"></i>
+                                <i className="fas fa-headset text-warning fa-3x me-3"></i>
                                 <div>
                                     <h3 className="fw-bold text-white mb-0 h2">
                                         24/7

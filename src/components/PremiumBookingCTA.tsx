@@ -20,7 +20,7 @@ const PremiumBookingCTA = ({ keyword = "Troyes" }: PremiumBookingCTAProps) => {
                             transition={{ duration: 0.6 }}
                         >
                             <div className="d-inline-block p-3 rounded-circle border border-warning border-opacity-25 mb-4">
-                                <i className="fas fa-headset text-warning h2 mb-0"></i>
+                                <i className="fas fa-headset text-warning fa-2x mb-0"></i>
                             </div>
                             <h2 className="display-4 fw-bold text-white mb-4">Paiement et réservation</h2>
                             <p className="lead text-white-50 mb-5">

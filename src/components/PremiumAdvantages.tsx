@@ -50,8 +50,8 @@ const PremiumAdvantages = ({ title = "L'Excellence à Chaque Kilomètre" }: Prem
                                 viewport={{ once: true }}
                                 transition={{ delay: index * 0.1, duration: 0.5 }}
                             >
-                                <div className="icon-lg text-gradient-gold mb-4 display-4">
-                                    <i className={adv.icon}></i>
+                                <div className="icon-lg text-gradient-gold mb-4">
+                                    <i className={`${adv.icon} fa-3x`}></i>
                                 </div>
                                 <h3 className="h4 text-white mb-3">{adv.title}</h3>
                                 <p className="text-white-50 mb-0">{adv.description}</p>

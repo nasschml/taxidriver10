@@ -10,7 +10,7 @@ const PremiumStats = () => {
                 <Row>
                     <Col md={3} xs={6} className="mb-4 mb-md-0">
                         <div className="text-center">
-                            <i className="display-4 ti-car text-warning mb-3 d-block" />
+                            <i className="fs-1 ti-car text-warning mb-3 d-block" />
                             <h2 className="fw-bold mb-0 display-5">
                                 <CountUp duration={2} end={15} />
                                 <span className="text-warning">+</span>
@@ -20,7 +20,7 @@ const PremiumStats = () => {
                     </Col>
                     <Col md={3} xs={6} className="mb-4 mb-md-0">
                         <div className="text-center">
-                            <i className="display-4 ti-user text-warning mb-3 d-block" />
+                            <i className="fs-1 ti-user text-warning mb-3 d-block" />
                             <h2 className="fw-bold mb-0 display-5">
                                 <CountUp duration={2} end={5000} />
                                 <span className="text-warning">+</span>
@@ -30,7 +30,7 @@ const PremiumStats = () => {
                     </Col>
                     <Col md={3} xs={6} className="mb-4 mb-md-0">
                         <div className="text-center">
-                            <i className="display-4 ti-map-alt text-warning mb-3 d-block" />
+                            <i className="fs-1 ti-map-alt text-warning mb-3 d-block" />
                             <h2 className="fw-bold mb-0 display-5">
                                 <CountUp duration={2} end={100} />
                                 <span className="text-warning">%</span>
@@ -40,7 +40,7 @@ const PremiumStats = () => {
                     </Col>
                     <Col md={3} xs={6}>
                         <div className="text-center">
-                            <i className="display-4 ti-infinite text-warning mb-3 d-block" />
+                            <i className="fs-1 ti-infinite text-warning mb-3 d-block" />
                             <h2 className="fw-bold mb-0 display-5">
                                 24<span className="text-warning">/</span>7
                             </h2>
