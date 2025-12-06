@@ -25,7 +25,7 @@ const PremiumFooter = () => {
                         </div>
                     </Col>
                     <Col lg={2} md={4} className="mb-4 mb-md-0">
-                        <h5 className="text-white mb-4">Navigation</h5>
+                        <h4 className="text-white mb-4">Navigation</h4>
                         <ul className="list-unstyled">
                             <li className="mb-2"><Link href="/" className="text-white-50 text-decoration-none hover-text-warning">Accueil</Link></li>
                             <li className="mb-2"><Link href="/#services" className="text-white-50 text-decoration-none hover-text-warning">Services</Link></li>
@@ -34,7 +34,7 @@ const PremiumFooter = () => {
                         </ul>
                     </Col>
                     <Col lg={2} md={4} className="mb-4 mb-md-0">
-                        <h5 className="text-white mb-4">Services</h5>
+                        <h4 className="text-white mb-4">Services</h4>
                         <ul className="list-unstyled">
                             <li className="mb-2"><Link href="/taxi-aeroport-roissy-cdg-troyes" className="text-white-50 text-decoration-none hover-text-warning">Aéroports</Link></li>
                             <li className="mb-2"><Link href="/taxi-troyes" className="text-white-50 text-decoration-none hover-text-warning">Gares</Link></li>
@@ -44,7 +44,7 @@ const PremiumFooter = () => {
                     </Col>
 
                     <Col lg={3} md={4}>
-                        <h5 className="text-white mb-4">Contact</h5>
+                        <h4 className="text-white mb-4">Contact</h4>
                         <ul className="list-unstyled text-white-50">
                             <li className="mb-3">
                                 <i className="fas fa-map-marker-alt text-warning me-2"></i>

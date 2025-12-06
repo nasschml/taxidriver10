@@ -27,7 +27,8 @@ const PremiumHero = ({
                 alt="Taxi Troyes - Chauffeur privé"
                 fill
                 priority
-                sizes="100vw"
+                quality={80}
+                sizes="(max-width: 768px) 100vw, 100vw"
                 className="object-fit-cover"
                 style={{
                     filter: 'grayscale(100%) contrast(1.1) brightness(0.4)',
