@@ -67,11 +67,11 @@ const PremiumNavbar = () => {
 
                         {/* CTA Button & Mobile Toggle */}
                         <div className="d-flex align-items-center gap-3">
-                            <a href="tel:+33000000000" className="text-decoration-none d-none d-sm-block">
+                            <a href="tel:+33000000000" className="text-decoration-none d-none d-sm-block" aria-label="Appeler le 06 00 00 00 00">
                                 <Button
                                     variant="warning"
-                                    size="sm"
                                     className="rounded-pill px-4 py-2 fw-bold glow-gold text-dark border-0"
+                                    style={{ minHeight: '44px' }}
                                 >
                                     <i className="fas fa-phone-alt me-2"></i>
                                     06 00 00 00 00

@@ -36,7 +36,7 @@ const PremiumAirportTransfer = ({ keyword = "Troyes" }: PremiumAirportTransferPr
             <Container>
                 <Row className="justify-content-center mb-5">
                     <Col lg={8} className="text-center">
-                        <h6 className="text-warning text-uppercase letter-spacing-2 mb-3">Connexions & Transferts</h6>
+                        <div className="h6 text-warning text-uppercase letter-spacing-2 mb-3">Connexions & Transferts</div>
                         <h2 className="display-4 fw-bold text-white mb-4">Trajets vers les aéroports</h2>
                         <p className="lead text-white-50">
                             Liaison directe depuis <span className="text-white">{keyword}</span> vers tous les aéroports parisiens.
@@ -58,7 +58,7 @@ const PremiumAirportTransfer = ({ keyword = "Troyes" }: PremiumAirportTransferPr
                                 <div className="icon-lg text-gradient-gold mb-4 display-4">
                                     <i className={feature.icon}></i>
                                 </div>
-                                <h4 className="text-white mb-3">{feature.title}</h4>
+                                <h3 className="h4 text-white mb-3">{feature.title}</h3>
                                 <p className="text-white-50 mb-0">{feature.text}</p>
                             </motion.div>
                         </Col>

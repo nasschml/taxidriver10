@@ -36,7 +36,7 @@ const PremiumAdvantages = ({ title = "L'Excellence à Chaque Kilomètre" }: Prem
             <Container>
                 <Row className="justify-content-center mb-5">
                     <Col lg={8} className="text-center">
-                        <h6 className="text-warning text-uppercase letter-spacing-2 mb-3">Pourquoi Nous Choisir</h6>
+                        <div className="h6 text-warning text-uppercase letter-spacing-2 mb-3">Pourquoi Nous Choisir</div>
                         <h2 className="display-4 fw-bold text-white">{title}</h2>
                     </Col>
                 </Row>
@@ -53,7 +53,7 @@ const PremiumAdvantages = ({ title = "L'Excellence à Chaque Kilomètre" }: Prem
                                 <div className="icon-lg text-gradient-gold mb-4 display-4">
                                     <i className={adv.icon}></i>
                                 </div>
-                                <h4 className="text-white mb-3">{adv.title}</h4>
+                                <h3 className="h4 text-white mb-3">{adv.title}</h3>
                                 <p className="text-white-50 mb-0">{adv.description}</p>
                             </motion.div>
                         </Col>

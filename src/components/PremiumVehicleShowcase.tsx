@@ -35,7 +35,7 @@ const PremiumVehicleShowcase = ({ title = VEHICLE.name }: PremiumVehicleShowcase
                             viewport={{ once: true }}
                             transition={{ duration: 0.8 }}
                         >
-                            <h6 className="text-warning text-uppercase letter-spacing-2 mb-3 fw-bold">Votre Véhicule</h6>
+                            <div className="h6 text-warning text-uppercase letter-spacing-2 mb-3 fw-bold">Votre Véhicule</div>
                             <h2 className="display-4 fw-bold text-white mb-4">{title}</h2>
                             <p className="lead text-white-50 mb-5">{VEHICLE.description}</p>
 

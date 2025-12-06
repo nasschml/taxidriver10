@@ -32,7 +32,7 @@ const PremiumTestimonials = () => {
             <Container className="position-relative z-index-1">
                 <Row className="justify-content-center mb-5">
                     <Col lg={8} className="text-center">
-                        <h6 className="text-warning text-uppercase letter-spacing-2 mb-3">Témoignages</h6>
+                        <div className="h6 text-warning text-uppercase letter-spacing-2 mb-3">Témoignages</div>
                         <h2 className="display-4 fw-bold text-white">Ils Nous Font Confiance</h2>
                     </Col>
                 </Row>
@@ -48,7 +48,7 @@ const PremiumTestimonials = () => {
                                             ))}
                                         </div>
                                         <p className="lead text-white fst-italic mb-4">&quot;{item.text}&quot;</p>
-                                        <h5 className="text-white fw-bold mb-1">{item.name}</h5>
+                                        <h3 className="h5 text-white fw-bold mb-1">{item.name}</h3>
                                         <span className="text-white-50 small text-uppercase letter-spacing-1">{item.role}</span>
                                     </div>
                                 </Carousel.Item>

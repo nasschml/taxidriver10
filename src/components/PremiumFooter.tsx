@@ -19,9 +19,9 @@ const PremiumFooter = () => {
                             Disponibilité 24/7, confort absolu et discrétion garantie.
                         </p>
                         <div className="d-flex gap-3">
-                            <a href="#" className="text-white hover-lift"><i className="fab fa-facebook-f"></i></a>
-                            <a href="#" className="text-white hover-lift"><i className="fab fa-instagram"></i></a>
-                            <a href="#" className="text-white hover-lift"><i className="fab fa-linkedin-in"></i></a>
+                            <a href="#" className="text-white hover-lift" aria-label="Facebook"><i className="fab fa-facebook-f"></i></a>
+                            <a href="#" className="text-white hover-lift" aria-label="Instagram"><i className="fab fa-instagram"></i></a>
+                            <a href="#" className="text-white hover-lift" aria-label="LinkedIn"><i className="fab fa-linkedin-in"></i></a>
                         </div>
                     </Col>
                     <Col lg={2} md={4} className="mb-4 mb-md-0">
