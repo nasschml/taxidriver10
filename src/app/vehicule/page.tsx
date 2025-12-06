@@ -50,7 +50,9 @@ const VehiclePage = () => {
                                 <Row className="g-4 mb-5">
                                     <Col xs={6}>
                                         <div className="d-flex align-items-center">
-                                            <i className="fas fa-users text-warning h4 mb-0 me-3"></i>
+                                            <div className="icon-sm text-warning me-3 mb-0">
+                                                <i className="fas fa-users fa-lg"></i>
+                                            </div>
                                             <div>
                                                 <h5 className="mb-0 text-white">6 Passagers</h5>
                                                 <small className="text-white-50">Capacité max</small>
@@ -59,7 +61,9 @@ const VehiclePage = () => {
                                     </Col>
                                     <Col xs={6}>
                                         <div className="d-flex align-items-center">
-                                            <i className="fas fa-suitcase text-warning h4 mb-0 me-3"></i>
+                                            <div className="icon-sm text-warning me-3 mb-0">
+                                                <i className="fas fa-suitcase fa-lg"></i>
+                                            </div>
                                             <div>
                                                 <h5 className="mb-0 text-white">Grand Coffre</h5>
                                                 <small className="text-white-50">Volumineux</small>
@@ -68,7 +72,9 @@ const VehiclePage = () => {
                                     </Col>
                                     <Col xs={6}>
                                         <div className="d-flex align-items-center">
-                                            <i className="fas fa-wifi text-warning h4 mb-0 me-3"></i>
+                                            <div className="icon-sm text-warning me-3 mb-0">
+                                                <i className="fas fa-wifi fa-lg"></i>
+                                            </div>
                                             <div>
                                                 <h5 className="mb-0 text-white">Wifi 4G</h5>
                                                 <small className="text-white-50">Connexion haut débit</small>
@@ -77,7 +83,9 @@ const VehiclePage = () => {
                                     </Col>
                                     <Col xs={6}>
                                         <div className="d-flex align-items-center">
-                                            <i className="fas fa-pump-medical text-warning h4 mb-0 me-3"></i>
+                                            <div className="icon-sm text-warning me-3 mb-0">
+                                                <i className="fas fa-pump-medical fa-lg"></i>
+                                            </div>
                                             <div>
                                                 <h5 className="mb-0 text-white">Hygiène</h5>
                                                 <small className="text-white-50">Désinfection systématique</small>
@@ -87,11 +95,15 @@ const VehiclePage = () => {
                                 </Row>
 
                                 <div className="d-flex gap-3">
-                                    <a href="tel:+33000000000" className="text-decoration-none">
-                                        <Button variant="warning" size="lg" className="rounded-pill px-5 py-3 fw-bold glow-gold text-dark">
-                                            RÉSERVER CE VÉHICULE
-                                        </Button>
-                                    </a>
+                                    <Button
+                                        as="a"
+                                        href="tel:+33000000000"
+                                        variant="warning"
+                                        size="lg"
+                                        className="text-decoration-none rounded-pill px-5 py-3 fw-bold glow-gold text-dark"
+                                    >
+                                        RÉSERVER CE VÉHICULE
+                                    </Button>
                                 </div>
                             </div>
                         </Col>
