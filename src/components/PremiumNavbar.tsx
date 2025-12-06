@@ -85,7 +85,7 @@ const PremiumNavbar = () => {
                                 onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
                                 aria-label="Menu"
                             >
-                                <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'} h4 mb-0`}></i>
+                                <i className={`fas ${mobileMenuOpen ? 'fa-times' : 'fa-bars'} fa-2x mb-0`}></i>
                             </button>
                         </div>
                     </div>

@@ -43,8 +43,8 @@ const PremiumVehicleShowcase = ({ title = VEHICLE.name }: PremiumVehicleShowcase
                                 {VEHICLE.specs.map((spec, i) => (
                                     <Col xs={6} key={i}>
                                         <div className="d-flex align-items-center text-white">
-                                            <div className="icon-sm text-warning me-3 h5 mb-0">
-                                                <i className={spec.icon}></i>
+                                            <div className="icon-sm text-warning me-3 mb-0">
+                                                <i className={`${spec.icon} fa-lg`}></i>
                                             </div>
                                             <span className="font-jakarta">{spec.label}</span>
                                         </div>
@@ -58,11 +58,14 @@ const PremiumVehicleShowcase = ({ title = VEHICLE.name }: PremiumVehicleShowcase
                                         EN SAVOIR PLUS
                                     </Button>
                                 </Link>
-                                <a href="tel:+33000000000" className="text-decoration-none">
-                                    <Button variant="warning" className="rounded-pill px-5 py-3 fw-bold glow-gold text-dark">
-                                        APPELER
-                                    </Button>
-                                </a>
+                                <Button
+                                    as="a"
+                                    href="tel:+33000000000"
+                                    variant="warning"
+                                    className="text-decoration-none rounded-pill px-5 py-3 fw-bold glow-gold text-dark"
+                                >
+                                    APPELER
+                                </Button>
                             </div>
                             <div className="mt-4 text-white-50 small">
                                 <i className="fas fa-credit-card me-2"></i> Paiements acceptés : CB, Espèce, Chèque
