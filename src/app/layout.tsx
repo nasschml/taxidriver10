@@ -51,7 +51,8 @@ export default function RootLayout({
   return (
     <html lang="fr">
       <head>
-
+        <link rel="preload" href="/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
+        <link rel="preload" href="/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-sans`}>{children}</body>
     </html>

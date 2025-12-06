@@ -10,6 +10,11 @@
     "lint": "next lint",
     "format": "prettier --write 'src/**/*.{ts,tsx,js,jsx}'"
   },
+  "browserslist": [
+    "defaults",
+    "not IE 11",
+    "maintained node versions"
+  ],
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
     "@iconify/react": "^5.2.0",
