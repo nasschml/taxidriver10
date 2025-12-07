@@ -55,6 +55,7 @@ export const viewport: Viewport = {
 }
 
 import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 export default function RootLayout({
   children,
@@ -68,6 +69,7 @@ export default function RootLayout({
         <link rel="preload" href="/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
       <body className={`${inter.variable} ${outfit.variable} font-sans`}>
+        <SpeedInsights />
         {children}
         <FloatingWhatsApp />
       </body>
