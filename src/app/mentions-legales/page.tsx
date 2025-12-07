@@ -36,7 +36,7 @@ const MentionsLegales = () => {
 
                                 <h2 className="text-warning mb-4">2. Contact</h2>
                                 <ul className="list-unstyled text-white-50 mb-5">
-                                    <li className="mb-2"><strong>Téléphone :</strong> <a href="tel:+33000000000" className="text-warning text-decoration-none">+33 0 00 00 00 00</a></li>
+                                    <li className="mb-2"><strong>Téléphone :</strong> <a href="tel:+33666476090" className="text-warning text-decoration-none">+33 6 66 47 60 90</a></li>
                                     <li className="mb-2"><strong>Email :</strong> <a href="mailto:contact@taxidriver10.fr" className="text-warning text-decoration-none">contact@taxidriver10.fr</a></li>
                                 </ul>
 

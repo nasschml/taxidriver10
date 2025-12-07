@@ -23,30 +23,6 @@ const PremiumBookingCTA = ({ keyword = "Troyes" }: PremiumBookingCTAProps) => {
                                 <i className="fas fa-headset text-warning fa-2x mb-0"></i>
                             </div>
                             <h2 className="display-4 fw-bold text-white mb-4">Paiement et réservation</h2>
-                            <p className="lead text-white-50 mb-5">
-                                Réservez votre taxi à <span className="text-white">{keyword}</span> en toute simplicité.
-                                Une réponse immédiate et une prise en charge rapide.
-                            </p>
-
-                            <div className="d-flex flex-column flex-sm-row justify-content-center gap-3">
-                                <Button
-                                    as="a"
-                                    href="tel:+33000000000"
-                                    variant="warning"
-                                    className="text-decoration-none rounded-pill px-5 py-3 fw-bold shadow-lg glow-gold text-dark w-100 w-sm-auto"
-                                >
-                                    <i className="fas fa-phone-alt me-2"></i> APPELER MAINTENANT
-                                </Button>
-                                <Button
-                                    as="a"
-                                    href="https://wa.me/33000000000"
-                                    variant="outline-light"
-                                    className="text-decoration-none rounded-pill px-5 py-3 fw-bold hover-lift w-100 w-sm-auto"
-                                >
-                                    <i className="fab fa-whatsapp me-2"></i> WHATSAPP
-                                </Button>
-                            </div>
-
                             <div className="mt-5 pt-4 border-top border-white border-opacity-10">
                                 <p className="text-white-50 small text-uppercase letter-spacing-2 mb-3">Moyens de paiement acceptés</p>
                                 <div className="d-flex justify-content-center gap-4 text-white-50 h3 mb-0">

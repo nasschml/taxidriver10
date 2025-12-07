@@ -32,7 +32,7 @@ const ContactPage = () => {
                                 <div>
                                     <h5 className="text-white mb-1">Téléphone</h5>
                                     <p className="text-white-50 mb-0">Disponible 24/7 pour vos urgences.</p>
-                                    <a href="tel:+33000000000" className="h4 text-white text-decoration-none hover-text-warning">+33 0 00 00 00 00</a>
+                                    <a href="tel:+33666476090" className="h4 text-white text-decoration-none hover-text-warning">+33 6 66 47 60 90</a>
                                 </div>
                             </div>
 

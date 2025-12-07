@@ -43,6 +43,8 @@ export const viewport: Viewport = {
   themeColor: '#000000',
 }
 
+import FloatingWhatsApp from '@/components/FloatingWhatsApp'
+
 export default function RootLayout({
   children,
 }: {
@@ -54,7 +56,10 @@ export default function RootLayout({
         <link rel="preload" href="/webfonts/fa-solid-900.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
         <link rel="preload" href="/webfonts/fa-brands-400.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
       </head>
-      <body className={`${inter.variable} ${outfit.variable} font-sans`}>{children}</body>
+      <body className={`${inter.variable} ${outfit.variable} font-sans`}>
+        {children}
+        <FloatingWhatsApp />
+      </body>
     </html>
   )
 }

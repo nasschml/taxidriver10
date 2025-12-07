@@ -69,14 +69,14 @@ const PremiumNavbar = () => {
                         <div className="d-flex align-items-center gap-3">
                             <Button
                                 as="a"
-                                href="tel:+33000000000"
+                                href="tel:+33666476090"
                                 variant="warning"
                                 className="text-decoration-none d-none d-sm-block rounded-pill px-4 py-2 fw-bold glow-gold text-dark border-0"
-                                aria-label="Appeler le 06 00 00 00 00"
+                                aria-label="Appeler le 06 66 47 60 90"
                                 style={{ minHeight: '44px' }}
                             >
                                 <i className="fas fa-phone-alt me-2"></i>
-                                06 00 00 00 00
+                                06 66 47 60 90
                             </Button>
 
                             {/* Mobile Toggle */}
@@ -117,7 +117,7 @@ const PremiumNavbar = () => {
                     </Nav>
                     <Button
                         as="a"
-                        href="tel:+33000000000"
+                        href="tel:+33666476090"
                         variant="warning"
                         size="lg"
                         className="text-decoration-none w-100 px-4 rounded-pill py-3 fw-bold glow-gold text-dark border-0"

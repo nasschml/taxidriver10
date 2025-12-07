@@ -52,7 +52,7 @@ const PremiumFooter = () => {
                             </li>
                             <li className="mb-3">
                                 <i className="fas fa-phone-alt text-warning me-2"></i>
-                                <a href="tel:+33000000000" className="text-white-50 text-decoration-none">+33 0 00 00 00 00</a>
+                                <a href="tel:+33666476090" className="text-white-50 text-decoration-none">+33 6 66 47 60 90</a>
                             </li>
                             <li className="mb-3">
                                 <i className="fas fa-envelope text-warning me-2"></i>

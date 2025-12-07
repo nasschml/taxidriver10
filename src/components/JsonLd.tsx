@@ -114,7 +114,7 @@ const JsonLd = ({ withFaq = false }: JsonLdProps) => {
                 "name": "Comment réserver un taxi ?",
                 "acceptedAnswer": {
                     "@type": "Answer",
-                    "text": "Vous pouvez réserver votre taxi par téléphone, WhatsApp ou SMS au 06 00 00 00 00."
+                    "text": "Vous pouvez réserver votre taxi par téléphone, WhatsApp ou SMS au 06 66 47 60 90."
                 }
             },
             {

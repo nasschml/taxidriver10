@@ -5,7 +5,7 @@ import { Accordion, AccordionBody, AccordionHeader, AccordionItem, Col, Containe
 const faqData = [
     {
         question: "Comment réserver un taxi ?",
-        answer: "Vous pouvez réserver simplement par téléphone, SMS ou WhatsApp au 06 00 00 00 00. Nous vous confirmons la prise en charge immédiatement."
+        answer: "Vous pouvez réserver simplement par téléphone, SMS ou WhatsApp au 06 66 47 60 90. Nous vous confirmons la prise en charge immédiatement."
     },
     {
         question: "Acceptez-vous la carte bancaire ?",
