@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
+  icons: {
+    icon: '/icon.png',
+    shortcut: '/icon.png',
+    apple: '/icon.png',
+  },
   openGraph: {
     title: 'Taxi Troyes 24/7 : réservation WhatsApp, paiement CB',
     description: 'Chauffeur taxi à Troyes et 50 km, aéroports Orly, Roissy, Vatry. Paiement CB, réservation WhatsApp.',
@@ -28,12 +33,18 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/images/hero-bg.jpg', // Default OG image
+        url: '/images/og-image.png',
         width: 1200,
         height: 630,
-        alt: 'Taxi Driver 10 - Chauffeur privé à Troyes',
+        alt: 'Taxi Driver 10 - Service Premium',
       },
     ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'Taxi Troyes 24/7',
+    description: 'Votre chauffeur privé à Troyes. Réservation immédiate.',
+    images: ['/images/og-image.png'],
   },
 }
 
